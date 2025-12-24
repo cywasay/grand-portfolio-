@@ -5,11 +5,17 @@ import { Logo } from "@/components/ui/logo";
 import { LanguageSwitcher } from "@/components/ui/language-switcher";
 import { Navbar } from "@/components/modules/navbar";
 import { ModeToggle } from "@/components/theme";
-import { Menu, X } from "lucide-react";
-import Link from "next/link"; // Assuming Navbar uses Link, used here for mobile links if needed
+import { Menu } from "lucide-react";
+import {
+  Sheet,
+  SheetContent,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet";
 
 export function Header() {
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <header className="absolute top-0 left-0 right-0 z-50 px-4 md:px-8 lg:px-16 py-6 w-full">
@@ -27,28 +33,38 @@ export function Header() {
         <div className="flex items-center gap-4">
           <ModeToggle />
 
-          {/* Mobile Menu Toggle */}
-          <button
-            className="md:hidden p-2 text-foreground"
-            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-          >
-            {isMobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
-          </button>
+          {/* Mobile Menu (Sheet) */}
+          <div className="md:hidden">
+            <Sheet open={isOpen} onOpenChange={setIsOpen}>
+              <SheetTrigger asChild>
+                <button className="p-2 text-foreground">
+                  <Menu size={28} />
+                </button>
+              </SheetTrigger>
+              <SheetContent side="right">
+                <SheetHeader className="text-left mb-8">
+                  <SheetTitle className="text-2xl font-black uppercase">
+                    Menu
+                  </SheetTitle>
+                </SheetHeader>
+
+                <div
+                  className="flex flex-col gap-6"
+                  onClick={() => setIsOpen(false)}
+                >
+                  <Navbar className="flex flex-col items-start gap-6 text-xl" />
+
+                  <div className="h-px bg-border w-full" />
+
+                  <div className="flex justify-start">
+                    <LanguageSwitcher />
+                  </div>
+                </div>
+              </SheetContent>
+            </Sheet>
+          </div>
         </div>
       </div>
-
-      {/* Mobile Menu Overlay */}
-      {isMobileMenuOpen && (
-        <div className="absolute top-full left-0 right-0 bg-background border-b border-border shadow-2xl p-6 md:hidden flex flex-col gap-6 animate-in slide-in-from-top-5">
-          <div className="flex flex-col gap-4">
-            <Navbar className="flex-col items-start gap-4" />
-          </div>
-          <div className="h-px bg-border w-full" />
-          <div className="flex justify-start">
-            <LanguageSwitcher />
-          </div>
-        </div>
-      )}
     </header>
   );
 }

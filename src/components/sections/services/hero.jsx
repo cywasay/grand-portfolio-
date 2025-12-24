@@ -11,7 +11,7 @@ export function ServicesHero() {
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold uppercase tracking-tight text-[#1A1A23] dark:text-foreground">
                 At Your
               </h2>
-              <h1 className="text-5xl sm:text-6xl lg:text-8xl xl:text-9xl font-black uppercase text-[#1A1A23] dark:text-foreground">
+              <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-black uppercase text-[#1A1A23] dark:text-foreground">
                 Service
               </h1>
             </div>

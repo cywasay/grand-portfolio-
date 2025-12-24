@@ -12,7 +12,7 @@ export function Hero() {
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold uppercase tracking-tight text-foreground">
                 Welcome to the
               </h2>
-              <h1 className="text-5xl sm:text-6xl lg:text-8xl xl:text-9xl font-black uppercase text-foreground">
+              <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-black uppercase text-foreground">
                 Factory
               </h1>
             </div>

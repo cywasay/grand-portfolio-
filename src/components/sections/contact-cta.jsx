@@ -7,10 +7,10 @@ export function ContactCTA() {
         <div className="w-full bg-[#1A1A23] dark:bg-[#DADADA] rounded-[60px] py-16 px-6 md:px-12 flex flex-col items-center justify-center text-center space-y-8 transition-colors duration-300">
           {/* Heading */}
           <div className="space-y-4">
-            <h3 className="text-3xl md:text-4xl font-black uppercase text-white dark:text-[#1A1A23] tracking-widest transition-colors duration-300">
+            <h3 className="text-2xl sm:text-3xl md:text-4xl font-black uppercase text-white dark:text-[#1A1A23] tracking-widest transition-colors duration-300">
               Do you have an
             </h3>
-            <h2 className="text-5xl md:text-6xl lg:text-8xl font-black uppercase text-white dark:text-[#1A1A23] tracking-tight leading-none transition-colors duration-300">
+            <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-black uppercase text-white dark:text-[#1A1A23] tracking-tight leading-none transition-colors duration-300">
               Awesome Project?
             </h2>
           </div>

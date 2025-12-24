@@ -41,7 +41,7 @@ export function Testimonials() {
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-black uppercase text-[#1A1A23] dark:text-white tracking-tight leading-none mb-2">
             Very Satisfied
           </h2>
-          <h2 className="text-5xl md:text-6xl lg:text-7xl font-black uppercase text-[#1A1A23] dark:text-white tracking-tight leading-none">
+          <h2 className="text-4xl md:text-5xl lg:text-7xl font-black uppercase text-[#1A1A23] dark:text-white tracking-tight leading-none">
             Customers
           </h2>
         </div>

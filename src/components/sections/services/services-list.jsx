@@ -61,7 +61,7 @@ export function ServicesList() {
         {services.map((service, index) => (
           <div
             key={index}
-            className="flex flex-col lg:flex-row bg-white dark:bg-[#FFFFFF] rounded-[40px] p-8 lg:p-12 gap-12 lg:gap-16 shadow-sm overflow-hidden min-h-[500px]"
+            className="flex flex-col lg:flex-row bg-white dark:bg-[#FFFFFF] rounded-[40px] p-6 md:p-8 lg:p-12 gap-8 lg:gap-16 shadow-sm overflow-hidden min-h-[500px]"
           >
             {/* Left Content */}
             <div className="flex-1 flex flex-col justify-center space-y-8">
@@ -74,7 +74,7 @@ export function ServicesList() {
                   />
                 </div>
 
-                <h3 className="text-4xl md:text-5xl font-black uppercase text-[#1A1A23] tracking-tight leading-none">
+                <h3 className="text-3xl md:text-4xl lg:text-5xl font-black uppercase text-[#1A1A23] tracking-tight leading-none">
                   {service.title}
                 </h3>
               </div>

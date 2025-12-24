@@ -78,8 +78,8 @@ export function ServicesIntro() {
               You need
             </h3>
 
-            <div className="flex flex-wrap items-center gap-4 text-5xl md:text-6xl lg:text-7xl font-black uppercase text-[#1A1A23] dark:text-white tracking-tight leading-none">
-              <span className="inline-flex items-center justify-center w-16 h-16 md:w-20 md:h-20 rounded-full border-[5px] border-[#1A1A23] dark:border-white">
+            <div className="flex flex-wrap items-center gap-2 md:gap-4 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black uppercase text-[#1A1A23] dark:text-white tracking-tight leading-none">
+              <span className="inline-flex items-center justify-center w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 rounded-full border-[3px] md:border-[5px] border-[#1A1A23] dark:border-white">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -88,7 +88,7 @@ export function ServicesIntro() {
                   strokeWidth="3"
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  className="w-8 h-8 md:w-10 md:h-10 animate-spin-slow"
+                  className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 animate-spin-slow"
                 >
                   <path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8" />
                   <path d="M21 3v5h-5" />

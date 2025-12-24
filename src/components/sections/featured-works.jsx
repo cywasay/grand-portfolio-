@@ -27,7 +27,7 @@ export function FeaturedWorks() {
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-black uppercase text-foreground tracking-tight">
             Featured
           </h2>
-          <h2 className="text-5xl md:text-6xl lg:text-7xl font-black uppercase text-foreground tracking-tight">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black uppercase text-foreground tracking-tight">
             Work
           </h2>
         </div>

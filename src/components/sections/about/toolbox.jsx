@@ -60,7 +60,7 @@ export function Toolbox() {
   return (
     <section className="pb-24 px-4 lg:px-8 max-w-7xl mx-auto bg-[#F3F2EF] dark:bg-background transition-colors duration-300">
       <div className="space-y-6 mb-16 max-w-3xl">
-        <h2 className="text-5xl md:text-6xl font-black uppercase text-[#1A1A23] dark:text-white tracking-tight">
+        <h2 className="text-4xl sm:text-5xl md:text-6xl font-black uppercase text-[#1A1A23] dark:text-white tracking-tight">
           Toolbox
         </h2>
         <p className="text-lg md:text-xl font-medium text-[#1A1A23]/80 dark:text-white/80 leading-relaxed">

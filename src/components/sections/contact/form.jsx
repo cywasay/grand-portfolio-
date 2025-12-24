@@ -24,7 +24,7 @@ export function ContactForm() {
 
   return (
     <section className="pb-24 px-4 lg:px-8 max-w-7xl mx-auto bg-[#F3F2EF] dark:bg-background transition-colors duration-300">
-      <div className="bg-white dark:bg-[#1A1A23] rounded-[40px] p-8 md:p-12 lg:p-16 shadow-sm">
+      <div className="bg-white dark:bg-[#1A1A23] rounded-[40px] p-6 md:p-12 lg:p-16 shadow-sm">
         <form onSubmit={handleSubmit} className="space-y-8 max-w-3xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="space-y-3">

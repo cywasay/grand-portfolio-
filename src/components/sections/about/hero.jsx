@@ -51,7 +51,7 @@ export function AboutHero() {
                     <path d="m7.8 7.8-2.9-2.9" />
                   </svg>
                 </span>
-                <h1 className="text-5xl md:text-6xl lg:text-7xl font-black uppercase text-[#1A1A23] dark:text-foreground">
+                <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black uppercase text-[#1A1A23] dark:text-foreground">
                   Art Director
                 </h1>
               </div>
