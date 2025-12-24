@@ -6,7 +6,6 @@ export function Navbar({ className = "flex items-center gap-8" }) {
     { label: "Services", href: "/services" },
     { label: "About", href: "/about" },
     { label: "Contact", href: "/contact" },
-    { label: "Play", href: "/play" },
   ];
 
   return (
