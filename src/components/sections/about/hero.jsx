@@ -27,7 +27,7 @@ export function AboutHero() {
           <div className="space-y-8">
             <div className="space-y-2">
               <h2 className="text-3xl md:text-4xl font-extrabold uppercase tracking-tight text-[#1A1A23] dark:text-foreground">
-                Paul, 34 Years Old
+                Alex, Software Engineer
               </h2>
               <div className="flex items-center gap-4">
                 <span className="w-10 h-10 md:w-12 md:h-12 rounded-full border-[3px] border-[#1A1A23] dark:border-white flex items-center justify-center">
@@ -52,27 +52,30 @@ export function AboutHero() {
                   </svg>
                 </span>
                 <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black uppercase text-[#1A1A23] dark:text-foreground">
-                  Art Director
+                  The Architect
                 </h1>
               </div>
             </div>
 
             <div className="space-y-6 text-lg md:text-xl font-medium text-[#1A1A23]/80 dark:text-muted-foreground leading-relaxed">
               <p>
-                My name is Paul, a passionate creative and a fan of
-                well-organized design systems. With 13 years of experience in
-                Art Direction, UI/UX Design and Illustration, I specialize in
-                crafting stunning visual identities, interfaces, web products,
-                and scalable design systems.
+                My name is Alex, a senior software engineer with a deep passion
+                for building robust, scalable, and high-performance web
+                applications. With over 8 years of experience across the full
+                stack, I specialize in creating elegant solutions to complex
+                engineering problems.
               </p>
               <p>
-                As a front-end developer (HTML/CSS/JS), I anticipate technical
-                constraints to design realistic projects, from mock-ups to
-                integration.
+                I thrive at the intersection of architecture and implementation,
+                ensuring that every line of code contributes to a seamless,
+                resilient, and accessible user experience. From cloud
+                infrastructure to pixel-perfect frontend components, I build for
+                the long term.
               </p>
               <p>
-                I have delivered 50+ projects from start to finish in a wide
-                range of industries.
+                I have successfully architected and deployed 30+ large-scale
+                applications, ranging from fintech platforms to AI-driven SaaS
+                products.
               </p>
             </div>
 
