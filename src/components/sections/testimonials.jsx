@@ -12,24 +12,24 @@ import { Quote } from "lucide-react";
 export function Testimonials() {
   const testimonials = [
     {
-      text: "Paul worked for dVine from 2012 to 2025. He provided support on all aspects of the brand identity, as well as interactions with industrial designers on hardware developments. I wholeheartedly recommend Paul for his talent, commitment, and ability to apprehend business issues on a global scale.",
-      company: "dVine",
-      author: "Yannis",
+      text: "Alex is a technical powerhouse. He completely refactored our legacy backend, improving response times by 40%. His ability to bridge the gap between complex engineering and user-friendly features is rare.",
+      company: "DataVizion",
+      author: "Yannis, CTO",
     },
     {
-      text: "What I appreciate about Paul through these experiences is his thoroughness, his ability to work in a team, his professionalism and use of modern tools such as Figma, Jira and the Photoshop suite. All of this enable efficient collaboration between the product and development teams and fit perfectly into the logic of our agile sprint methodology.",
-      company: "Koov",
-      author: "Alex",
+      text: "Working with Alex was a breath of fresh air. He implemented a complex real-time dashboard using Next.js and WebSockets that our team uses daily. The code is clean, well-documented, and incredibly easy to maintain.",
+      company: "StreamLine",
+      author: "Alex, Founder",
     },
     {
-      text: "Working with Paul has been a game-changer for our brand. He intuitively understood our vision and translated it into a design language that resonates deeply with our audience. His strategic approach to UI/UX has significantly improved our user retention rates.",
-      company: "TechFlow",
-      author: "Sarah",
+      text: "The architectural depth Alex brought to our project was impressive. He didn't just write code; he helped us design a system that could scale with our growth. His expertise in AWS and Docker saved us months of DevOps headaches.",
+      company: "TechScale AI",
+      author: "Sarah, VP Eng",
     },
     {
-      text: "An exceptional designer who combines artistic flair with technical precision. Paul's ability to navigate complex requirements and deliver simple, elegant solutions is unmatched. He is a true partner in the creative process.",
+      text: "Alex delivered our MVP in record time without compromising on quality. His focus on performance and accessibility (a11y) ensured we reached a wider audience right from launch. Highly recommended.",
       company: "Innovate Labs",
-      author: "David",
+      author: "David, Product",
     },
   ];
 
