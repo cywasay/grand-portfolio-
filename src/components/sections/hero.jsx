@@ -9,17 +9,18 @@ export function Hero() {
           {/* Left Content */}
           <div className="space-y-10">
             <div className="space-y-1">
-              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold uppercase tracking-tight text-foreground">
-                Welcome to the
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold uppercase tracking-tight text-foreground whitespace-nowrap">
+                Welcome to
               </h2>
-              <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-black uppercase text-foreground">
-                Factory
+              <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-black uppercase text-foreground leading-[0.8]">
+                Fullstack
               </h1>
             </div>
 
             <p className="max-w-md text-lg lg:text-xl text-muted-foreground">
-              Pleased to meet you, I'm Paul, senior Art Director, UI/UX Designer
-              & illustrator.
+              Pleased to meet you, I'm Alex, a Full Stack Web Developer &
+              Software Engineer specializing in building high-performance
+              digital products.
             </p>
 
             <HeroStats />

@@ -1,56 +1,56 @@
-import { PenTool, Monitor, Code, Video, Megaphone } from "lucide-react";
+import { PenTool, Monitor, Code, Video, Megaphone, Box } from "lucide-react";
 
 export function ServicesList() {
   const services = [
     {
-      icon: PenTool,
-      title: "ART DIRECTION",
+      icon: Code,
+      title: "FRONTEND ENGINEERING",
       description:
-        "Whether it's a new branding or a logo redesign, we'll work with you to create a striking identity for your target market that will stand out from your competitors. By this I mean: a truly professional and coherent logo with a color universe, a singular typography (except Lobster) and the right iconography to shine through. If your brand is already established, I can develop it on new media while maintaining overall consistency.",
+        "I build high-performance, accessible, and responsive user interfaces using modern frameworks like React and Next.js. My focus is on creating smooth user experiences with complex state management, robust component architectures, and optimized rendering. Whether it's a dynamic SaaS dashboard or a high-converting landing page, I ensure pixel-perfect implementation and type-safe code.",
       featured: {
-        name: "Skaelia",
-        color: "bg-[#1A1A23]", // Dark card color
+        name: "Fintech Dashboard",
+        color: "bg-[#1A1A23]",
       },
     },
     {
       icon: Monitor,
-      title: "UI/UX DESIGN",
+      title: "FULL STACK SOLUTIONS",
       description:
-        "I design intuitive and engaging user interfaces for web and mobile applications. My process involves deep user research, wireframing, and high-fidelity prototyping to ensure a seamless user experience. I focus on creating designs that are not only visually appealing but also functional and accessible, enhancing user satisfaction and retention.",
+        "End-to-end development of complex web applications. I bridge the gap between frontend and backend, ensuring seamless data flow and consistent user experience. I specialize in building scalable architectures that can handle high traffic while maintaining rapid development cycles and ease of deployment.",
       featured: {
-        name: "Koov",
-        color: "bg-[#8D7F71]", // Brownish card color
+        name: "E-Commerce Hub",
+        color: "bg-[#8D7F71]",
       },
     },
     {
-      icon: Code,
-      title: "WEB DEVELOPMENT",
+      icon: Box,
+      title: "BACKEND ARCHITECTURE",
       description:
-        "I bring designs to life with clean, efficient, and semantic code. Specializing in modern frontend frameworks like React and Next.js, I build responsive, fast-loading, and SEO-friendly websites. From landing pages to complex web applications, I ensure your digital presence is robust, scalable, and easy to maintain.",
+        "Designing robust server-side logic and database schemas. I specialize in Node.js and Go, building RESTful and GraphQL APIs that are secure, scalable, and efficient. I focus on database optimization, caching strategies, and microservices architecture to ensure your application can grow without technical debt.",
       featured: {
-        name: "Peek'in",
-        color: "bg-[#2A3B90]", // Blue card color
+        name: "HealthConnect AI",
+        color: "bg-[#2A3B90]",
       },
     },
     {
-      icon: Video,
-      title: "MOTION DESIGN",
+      icon: Monitor,
+      title: "PERFORMANCE OPTIMIZATION",
       description:
-        "Add life to your digital products with captivating motion design. I create smooth animations and micro-interactions that guide users and provide delightful feedback. Whether it's a logo animation, an explainer video, or UI transitions, I use motion to tell your brand's story and make your interface feel more dynamic and polished.",
+        "I audit and optimize existing codebases to improve Core Web Vitals, page speed, and overall efficiency. This includes everything from frontend bundle reduction and image optimization to backend query performance and infrastructure scaling via Docker and Kubernetes.",
       featured: {
         name: "Next Gen",
-        color: "bg-[#E0E0E0]", // Light card color
+        color: "bg-[#E0E0E0]",
         textColor: "text-[#1A1A23]",
       },
     },
     {
-      icon: Megaphone,
-      title: "STRATEGY",
+      icon: PenTool,
+      title: "TECHNICAL CONSULTING",
       description:
-        "Beyond visuals, I help define your digital strategy. We'll analyze your market, identify your audience, and craft a roadmap for success. From content strategy to user acquisition channels, I provide insights that align design and development with your business goals, ensuring every pixel serves a purpose.",
+        "Strategic advice on your technical roadmap. I help you choose the right tech stack, define your architecture, and implement best practices for testing, CI/CD, and security. I provide deep dives into complex engineering problems and deliver actionable solutions that align with your business goals.",
       featured: {
-        name: "Urban Dynamics",
-        color: "bg-[#21202C]", // Dark purple card color
+        name: "Skaelia",
+        color: "bg-[#21202C]",
       },
     },
   ];
