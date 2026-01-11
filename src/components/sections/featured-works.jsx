@@ -4,18 +4,18 @@ import { PrimaryButton } from "@/components/ui/primary-button";
 export function FeaturedWorks() {
   const works = [
     {
-      title: "Abstract Factory",
-      category: "UI/UX Design  Mobile App  Design System",
+      title: "Fintech Dashboard",
+      category: "Full Stack Development  Next.js  TypeScript  Tailwind",
       className: "bg-[#e5e5e5]",
     },
     {
-      title: "Koov",
-      category: "Branding  Visual Identity  Packaging",
+      title: "E-Commerce Hub",
+      category: "Backend Engine  Node.js  PostgreSQL  Stripe API",
       className: "bg-[#8D7F71]",
     },
     {
-      title: "Urban Dynamics",
-      category: "Illustration  Art Direction  Editorial",
+      title: "HealthConnect AI",
+      category: "AI Integration  React  Python  Cloud Architecture",
       className: "bg-[#21202C]",
     },
   ];

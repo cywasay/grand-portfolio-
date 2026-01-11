@@ -12,58 +12,63 @@ import {
 export function ServicesIntro() {
   const services = [
     {
-      icon: PenTool,
-      title: "Art Direction",
-      items: [
-        "Global visual identity",
-        "Logo and variations",
-        "Visual language",
-        "Brand guidelines",
-      ],
-    },
-    {
-      icon: Monitor,
-      title: "UI/UX Design",
-      items: ["SaaS", "Showcase Website/E-Shop", "Mobile app", "Design system"],
-    },
-    {
       icon: Code,
-      title: "Web Development",
+      title: "Frontend Development",
       items: [
-        "Responsive integration",
-        "CMS (WordPress/PrestaShop)",
-        "Custom modules",
-        "Performance optimization",
-      ],
-    },
-    {
-      icon: Video,
-      title: "Motion Design",
-      items: [
-        "Logo animation",
-        "UI Interactions",
-        "Explainer videos",
-        "Social media content",
-      ],
-    },
-    {
-      icon: ImageIcon,
-      title: "Illustration",
-      items: [
-        "Editorial illustration",
-        "Iconography",
-        "Character design",
-        "Digital painting",
+        "React & Next.js Expert",
+        "Responsive Web Apps",
+        "UI Animation (Motion)",
+        "Accessibility (a11y)",
       ],
     },
     {
       icon: Box,
-      title: "3D Design",
+      title: "Backend Solutions",
       items: [
-        "Product visualization",
-        "3D Web assets",
-        "Environment design",
-        "Abstract art",
+        "Node.js & Express",
+        "Database Architecture",
+        "REST & GraphQL APIs",
+        "Microservices",
+      ],
+    },
+    {
+      icon: Monitor,
+      title: "Full Stack UX",
+      items: [
+        "Dynamic Interfaces",
+        "User Flow Optimization",
+        "State Management",
+        "Figma-to-Code Delivery",
+      ],
+    },
+    {
+      icon: PenTool,
+      title: "Clean Code Audit",
+      items: [
+        "Performance Tuning",
+        "Refactoring Legacy Code",
+        "Unit & E2E Testing",
+        "CI/CD Implementation",
+      ],
+    },
+    {
+      icon: ImageIcon,
+      title: "Cloud Deployment",
+      items: [
+        "AWS/Vercel setup",
+        "Docker Containerization",
+        "Serverless Functions",
+        "Security Best Practices",
+      ],
+    },
+    {
+      icon: Video,
+      title: "API Integration",
+      items: [
+        "Payment Gateways",
+        "Third-party Auth",
+        "Real-time Sockets",
+        "CMS Headless Setup",
       ],
     },
   ];
@@ -96,15 +101,15 @@ export function ServicesIntro() {
                   <path d="M3 21v-5h5" />
                 </svg>
               </span>
-              <span>A Saas Interface</span>
+              <span>Robust Architecture</span>
             </div>
           </div>
 
           {/* Description Paragraph */}
           <p className="text-lg md:text-xl font-medium text-[#1A1A23]/70 dark:text-white/70 max-w-2xl leading-relaxed mt-4">
-            With 13 years of experience in web and print creation, I've
-            developed a wide range of services to meet even your wildest project
-            ideas.
+            With over 8 years of experience in the full software development
+            lifecycle, I build scalable, efficient, and user-centric web
+            applications that solve real-world problems.
           </p>
         </div>
 
