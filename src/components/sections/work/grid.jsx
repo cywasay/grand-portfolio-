@@ -4,33 +4,33 @@ import { ChevronDown } from "lucide-react";
 export function WorkGrid() {
   const works = [
     {
-      title: "Abstract Factory",
-      category: "UI/UX Design  Mobile App  Design System",
+      title: "Fintech Dashboard",
+      category: "React  Next.js  TypeScript  Tailwind",
       className: "bg-[#e5e5e5]",
     },
     {
-      title: "Koov",
-      category: "Branding  Visual Identity  Packaging",
+      title: "E-Commerce Hub",
+      category: "Node.js  PostgreSQL  Stripe  Redis",
       className: "bg-[#8D7F71]",
     },
     {
-      title: "Urban Dynamics",
-      category: "Illustration  Art Direction  Editorial",
+      title: "HealthConnect AI",
+      category: "Python  FastAPI  React  OpenAI",
       className: "bg-[#21202C]",
     },
     {
-      title: "Skaelia",
-      category: "Web Design  Development  SEO",
+      title: "Skaelia SaaS",
+      category: "Full Stack  tRPC  Drizzle  Auth.js",
       className: "bg-[#1A1A23]",
     },
     {
-      title: "Peek'in",
-      category: "Product Design  Strategy  Growth",
+      title: "DevPortfolio Core",
+      category: "Next.js  Framer Motion  Three.js",
       className: "bg-[#2A3B90]",
     },
     {
-      title: "Next Gen",
-      category: "Identity  Motion  Social",
+      title: "Next Gen Analytics",
+      category: "Go  InfluxDB  Grafana  Docker",
       className: "bg-[#E0E0E0]",
     },
   ];
